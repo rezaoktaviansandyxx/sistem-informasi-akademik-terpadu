@@ -24,7 +24,7 @@ jobs:
         working-directory: backend/siat_api
     env:
       APP_ENV: testing
-      DB_CONNECTION: sqlite
+      DB_CONNECTION: mysql
       DB_DATABASE: ":memory:"
       CACHE_STORE: array
       SESSION_DRIVER: array
