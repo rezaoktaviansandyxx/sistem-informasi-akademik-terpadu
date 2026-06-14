@@ -1,0 +1,11 @@
+# Folders
+build/
+.dart_tool/
+.vscode/settings.json
+.idea/
+# Files
+.metadata
+siat_web.iml
+# FVM Version Cache
+.fvm/
+.fvmrc
