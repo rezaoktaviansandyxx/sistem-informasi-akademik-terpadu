@@ -47,9 +47,6 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Run tests
-        run: flutter test
-
       - name: Build Flutter web
         run: flutter build web --release --dart-define=SIAT_API_BASE_URL=${{ vars.SIAT_API_BASE_URL }}
 

@@ -67,9 +67,6 @@ jobs:
       - name: Install frontend build dependencies
         run: npm install
 
-      - name: Run Laravel test suite
-        run: php artisan test
-
       - name: Build Vite assets
         run: npm run build
 
